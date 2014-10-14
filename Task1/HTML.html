@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
+<html>
 <head lang="en">
     <meta charset="UTF-8">
     <title>Skype</title>
@@ -8,10 +8,12 @@
 <body>
 
 <header>
-    <a href="#about">About</a><br/>
-    <a href="#faq">FAQ</a><br/>
-    <a href="#contacts">Contacts</a><br/>
-    <a href="#register">Register</a><br/>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contacts">Contacts</a></li>
+      <li><a href="#register">Register</a></li>
+    </ul>
 </header>
 <section>
     <h1> Skype </h1>
@@ -70,18 +72,22 @@
 
 <article id="register">
     <h2>Register</h2>
-    <p>Your email:<input type="text"/></p>
-    <p>Your password:<input type="password"/></p>
-    <p>Please confirm your password:<input type="password"/></p>
-    <input type="submit" value="Sign up">
+    <form>
+        <p>Your email:<input type="text"/></p>
+        <p>Your password:<input type="password"/></p>
+        <p>Please confirm your password:<input type="password"/></p>
+        <input type="submit" value="Sign up">
+    </form>
 </article>
 
 <article>
     <h2>Feedback</h2>
-    <p>Your name<input type="text"/></p>
-    <p>Your email:<input type="text"/></p>
-    <p>Your message:<input type="text"/></p>
-    <input type="submit" value="Send">
+    <form>
+        <p>Your name<input type="text"/></p>
+        <p>Your email:<input type="text"/></p>
+        <p>Your message:<input type="text"/></p>
+        <input type="submit" value="Send">
+    </form>
 </article>
 </section>
 <footer class="menu">
